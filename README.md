@@ -77,24 +77,4 @@ HTTP/1.1 403 Forbidden
 
 <h1>403 Forbidden</h1>
 
-🛠 Project Structure
 
-/web-server
-│── /www # Directory containing HTML files
-│ ├── index.html # Main HTML file
-│── server.py # Python web server
-│── README.md # Project documentation
-
-🔒 Security Features
-
-🟢 Blocks directory traversal attacks (../../etc/passwd)🟢 Restricts file access to www/ only🟢 Prevents encoded path attacks (%2e%2e/%2e%2e/)🟢 Handles multiple client connections securely
-
-📌 Notes
-
-Ensure www/index.html exists before running the server.
-
-Modify server.py to customize responses.
-
-🐟 License
-
-This project is open-source under the MIT License.
